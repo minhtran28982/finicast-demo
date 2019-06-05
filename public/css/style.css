@@ -1,0 +1,90 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header{
+    background-color: #499;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+}
+.board-style{
+	margin-top: 100px;
+    margin-left: 220px;
+    width: calc(100% - 220px);
+    height: 960px;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+}
+.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5
+}
+.slide-bar{
+	background-color: #cde;
+    display: flex;
+    position: relative;
+    float: left;
+    top: 100px;
+    height: 960px;
+    width: 220px;
+}
+.widget-item{
+	cursor: move;
+    height: 120px;
+	color: #000;
+	background-color: #abc;
+	margin: 1px;
+}
+.widget-item div{
+	padding: 3px;
+}
+.slide-bar .widget-item:hover{
+	background-color: #def;
+}
+.slider-item-style{
+	background-color: #fff;
+    height: 120px;
+    width: 100%;
+}
+.board-square-style{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.square-style{
+	background-color: #fff;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+.container-style{
+    width: 100%;
+    height: 700px;
+    border: 1px solid gray;
+}
+.x-button{
+	position: absolute;
+	text-align: center;
+	top: 5px;
+	right: 5px; 
+	font-weight: bold;
+}
+.x-button:hover{
+}
+.grid-col-item{
+	padding: 0px !important;
+	height: 120px;
+}
+.row{
+	margin-left: 0px !important;
+}
